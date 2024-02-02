@@ -1,0 +1,63 @@
+ body{
+    font-family: "Poppins", sans-serif;
+    background-color:#808080 ;
+ }
+
+ .container{
+    background-color:#FFFF00 ;
+    margin: 120px auto;
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+
+ }
+ 
+ h1{
+    text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+ }
+
+ form{
+    background-color:#808080 ;
+    padding: 20px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+ }
+
+ .text{
+    padding: 20px;
+    border-radius: 10px;
+    width: 70%;
+    border: none;
+    margin: 10px;
+    font-size: 16px;
+ }
+
+ .button{
+    font-size: 16px;
+    background-color:white;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    color: #808080;
+
+ }
+
+ .poem{
+    background-color: white;
+    border-left: 10px solid #808080;
+    padding: 20px;
+    
+ }
+
+ footer{
+    text-align:center;
+    font-size: 20px;
+    margin-bottom: 20px;
+ }
+
+ a{
+    color: white;
+ }
