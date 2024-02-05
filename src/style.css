@@ -19,11 +19,15 @@
     font-size: 50px;
  }
 
+.form-wrapper{
+   background-color: #808080;
+      padding: 20px;
+      margin-bottom: 10px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
  form{
-    background-color:#808080 ;
-    padding: 20px;
-    margin-bottom: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+   display: flex;
+
  }
 
  .text{
@@ -38,7 +42,7 @@
  .button{
     font-size: 16px;
     background-color:white;
-    padding: 20px;
+    padding: 16px;
     border: none;
     border-radius: 18px;
     color: #808080;
@@ -47,11 +51,13 @@
 
  .poem{
     background-color: white;
+    display: none;
     border-left: 10px solid #808080;
     padding: 20px;
     margin-bottom: 30px;
     
  }
+
 
  footer{
     text-align:center;
@@ -61,4 +67,21 @@
 
  a{
     color: white;
+ }
+
+ .blink {
+    animation: blink-animation 1s steps(5, start) infinite;
+    -webkit-animation: blink-animation 1s steps(5, start) infinite;
+ }
+
+ @keyframes blink-animation {
+    to {
+       visibility: hidden;
+    }
+ }
+
+ @-webkit-keyframes blink-animation {
+    to {
+       visibility: hidden;
+    }
  }
